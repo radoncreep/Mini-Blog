@@ -11,7 +11,7 @@ const app = express();
 
 require('dotenv').config()
 
-const MONGODB_URI = MONGODB_URI;
+const MONGODB_URI = procees.env.MONGODB_URI;
 
 const postRoute = require('./api/postRoute');
 const categoryRoute = require('./api/category');
